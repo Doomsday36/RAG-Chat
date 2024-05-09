@@ -20,7 +20,7 @@ qclient = QdrantClient(
     api_key = QDRANT_API_KEY,
 )
 with st.sidebar:
-    anthropic_api_key = st.text_input("Anthropic API Key", key="chatbot_api_key", type="password", value="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")
+    anthropic_api_key = st.text_input("Anthropic API Key", key="chatbot_api_key", type="password")
 
 st.title("💬 Chatbot")
 st.caption("🚀 RAG powered chat")
