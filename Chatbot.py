@@ -49,7 +49,7 @@ def embed_query(query: str):
 
 def qdrant_search(bedding : list):
     knowledge = qclient.search(
-        collection_name = "test_collection",
+        collection_name = "s1",
         query_vector = bedding,
     )
     return knowledge
